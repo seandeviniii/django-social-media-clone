@@ -2,6 +2,8 @@ from django.conf import settings
 from django.core.urlresolvers import reverse
 from django.db import models
 
+import os
+
 import misaka
 
 from groups.models import  Group
